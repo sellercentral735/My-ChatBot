@@ -113,14 +113,6 @@ function App() {
                       </div>
           ))}
 
-          <div className="chat-bubble bot">
-            <div className="avatar">
-              <img src={bot} />
-            </div>
-            <div className="post">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </div>
-          </div>
         </div>
       </section>
       <footer>
