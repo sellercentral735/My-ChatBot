@@ -21,7 +21,7 @@ function App() {
 
   const fetchBotResponse = async () => {
       const {data} = await axios.post(
-        "http://localhost:4000", { input },
+        "https://my-chatbot-n7px.onrender.com", { input },
           { headers: {
               "Content-Type": "application/json",
                 },
